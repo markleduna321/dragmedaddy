@@ -1,0 +1,40 @@
+import React from 'react';
+
+const iconPaths = {
+    arrow: <path d="M7 17 17 7M7 7h10v10" />,
+    layers: <><path d="m12 3 9 5-9 5-9-5 9-5Z" /><path d="m3 12 9 5 9-5M3 16l9 5 9-5" /></>,
+    brush: <><path d="m14 6 4 4M4 20c3.5 0 5.5-1.5 6.5-4.5L20 6a2.8 2.8 0 0 0-4-4l-9.5 9.5C3.5 12.5 2 14.5 2 18v2h2Z" /><path d="M7 17h.01" /></>,
+    workflow: <><rect x="3" y="3" width="7" height="6" rx="1.5" /><rect x="14" y="15" width="7" height="6" rx="1.5" /><path d="M6.5 9v4a3 3 0 0 0 3 3H14M17.5 15v-4a3 3 0 0 0-3-3H10" /></>,
+    code: <><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 5l-4 14" /></>,
+    shield: <><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z" /><path d="m9 12 2 2 4-4" /></>,
+    sparkles: <><path d="m12 3 1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2L12 3Z" /><path d="m19 14 1.2 2.8L23 18l-2.8 1.2L19 22l-1.2-2.8L15 18l2.8-1.2L19 14ZM5 2l.8 2.2L8 5l-2.2.8L5 8l-.8-2.2L2 5l2.2-.8L5 2Z" /></>,
+    database: <><ellipse cx="12" cy="5" rx="8" ry="3" /><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" /></>,
+};
+
+export function Icon({ name, className = 'h-5 w-5' }) {
+    return (
+        <svg
+            aria-hidden="true"
+            className={className}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.7"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        >
+            {iconPaths[name]}
+        </svg>
+    );
+}
+
+export function BrandMark() {
+    return (
+        <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-700 text-white shadow-lg shadow-blue-700/20">
+            <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5" fill="none">
+                <path d="M5 5h6v6H5zM13 5h6v3h-6zM13 10h6v9h-6zM5 13h6v6H5z" fill="currentColor" />
+            </svg>
+        </span>
+    );
+}
+

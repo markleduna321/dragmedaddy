@@ -4,6 +4,7 @@ namespace Tests\Feature\Auth;
 
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Inertia\Testing\AssertableInertia as Assert;
 use Tests\TestCase;
 
 class AuthenticationTest extends TestCase
@@ -14,7 +15,8 @@ class AuthenticationTest extends TestCase
     {
         $response = $this->get('/login');
 
-        $response->assertStatus(200);
+        $response->assertStatus(200)
+            ->assertInertia(fn (Assert $page) => $page->component('login/page'));
     }
 
     public function test_users_can_authenticate_using_the_login_screen(): void
@@ -34,12 +36,28 @@ class AuthenticationTest extends TestCase
     {
         $user = User::factory()->create();
 
-        $this->post('/login', [
+        $response = $this->post('/login', [
             'email' => $user->email,
             'password' => 'wrong-password',
         ]);
 
+        $response->assertSessionHasErrors('email');
         $this->assertGuest();
+    }
+
+    public function test_login_requires_email_and_password(): void
+    {
+        $this->post('/login', [])
+            ->assertSessionHasErrors(['email', 'password']);
+
+        $this->assertGuest();
+    }
+
+    public function test_authenticated_users_are_redirected_from_login(): void
+    {
+        $this->actingAs(User::factory()->create())
+            ->get('/login')
+            ->assertRedirect(route('dashboard', absolute: false));
     }
 
     public function test_users_can_logout(): void

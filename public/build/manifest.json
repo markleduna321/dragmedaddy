@@ -1,0 +1,262 @@
+{
+  "_Badge-BRVsBdeD.js": {
+    "file": "assets/Badge-BRVsBdeD.js",
+    "name": "Badge",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_GuestLayout-2FgmnTaq.js": {
+    "file": "assets/GuestLayout-2FgmnTaq.js",
+    "name": "GuestLayout",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_MainLayout-Dqovo2Id.js": {
+    "file": "assets/MainLayout-Dqovo2Id.js",
+    "name": "MainLayout",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_TextInput-CYRE7mRF.js": {
+    "file": "assets/TextInput-CYRE7mRF.js",
+    "name": "TextInput",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "node_modules/three/build/three.module.js": {
+    "file": "assets/three.module-DbmfBPKn.js",
+    "name": "three.module",
+    "src": "node_modules/three/build/three.module.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-D1QkonGL.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/dashboard/_sections/ProjectsSection.jsx",
+      "resources/js/pages/dashboard/_sections/WelcomeSection.jsx",
+      "resources/js/pages/dashboard/_sections/WorkflowSection.jsx",
+      "resources/js/pages/dashboard/page.jsx",
+      "resources/js/pages/home-page/_sections/CapabilitiesSection.jsx",
+      "resources/js/pages/home-page/_sections/CtaSection.jsx",
+      "resources/js/pages/home-page/_sections/FooterSection.jsx",
+      "resources/js/pages/home-page/_sections/HeaderSection.jsx",
+      "resources/js/pages/home-page/_sections/HeroSection.jsx",
+      "resources/js/pages/home-page/_sections/HomeVisuals.jsx",
+      "resources/js/pages/home-page/_sections/NodeCanvas.jsx",
+      "resources/js/pages/home-page/_sections/WorkflowSection.jsx",
+      "resources/js/pages/home-page/page.jsx",
+      "resources/js/pages/login/_sections/LoginFormSection.jsx",
+      "resources/js/pages/login/page.jsx",
+      "resources/js/pages/profile/Edit.jsx",
+      "resources/js/pages/register/_sections/RegisterFormSection.jsx",
+      "resources/js/pages/register/page.jsx"
+    ],
+    "css": [
+      "assets/app-SxYvgyc2.css"
+    ]
+  },
+  "resources/js/pages/dashboard/_sections/ProjectsSection.jsx": {
+    "file": "assets/ProjectsSection-CglRl59k.js",
+    "name": "ProjectsSection",
+    "src": "resources/js/pages/dashboard/_sections/ProjectsSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Badge-BRVsBdeD.js"
+    ]
+  },
+  "resources/js/pages/dashboard/_sections/WelcomeSection.jsx": {
+    "file": "assets/WelcomeSection-DkKjlCJg.js",
+    "name": "WelcomeSection",
+    "src": "resources/js/pages/dashboard/_sections/WelcomeSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Badge-BRVsBdeD.js"
+    ]
+  },
+  "resources/js/pages/dashboard/_sections/WorkflowSection.jsx": {
+    "file": "assets/WorkflowSection-CM-YwmOK.js",
+    "name": "WorkflowSection",
+    "src": "resources/js/pages/dashboard/_sections/WorkflowSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/pages/dashboard/page.jsx": {
+    "file": "assets/page-D59HSE00.js",
+    "name": "page",
+    "src": "resources/js/pages/dashboard/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_MainLayout-Dqovo2Id.js",
+      "resources/js/pages/dashboard/_sections/WelcomeSection.jsx",
+      "resources/js/pages/dashboard/_sections/ProjectsSection.jsx",
+      "resources/js/pages/dashboard/_sections/WorkflowSection.jsx",
+      "_Badge-BRVsBdeD.js"
+    ]
+  },
+  "resources/js/pages/home-page/_sections/CapabilitiesSection.jsx": {
+    "file": "assets/CapabilitiesSection-ANYE4zBw.js",
+    "name": "CapabilitiesSection",
+    "src": "resources/js/pages/home-page/_sections/CapabilitiesSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/pages/home-page/_sections/HomeVisuals.jsx"
+    ]
+  },
+  "resources/js/pages/home-page/_sections/CtaSection.jsx": {
+    "file": "assets/CtaSection-DMq5Tbaq.js",
+    "name": "CtaSection",
+    "src": "resources/js/pages/home-page/_sections/CtaSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/pages/home-page/_sections/HomeVisuals.jsx"
+    ]
+  },
+  "resources/js/pages/home-page/_sections/FooterSection.jsx": {
+    "file": "assets/FooterSection-BIi9NCzV.js",
+    "name": "FooterSection",
+    "src": "resources/js/pages/home-page/_sections/FooterSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/pages/home-page/_sections/HomeVisuals.jsx"
+    ]
+  },
+  "resources/js/pages/home-page/_sections/HeaderSection.jsx": {
+    "file": "assets/HeaderSection-C7cpxuZW.js",
+    "name": "HeaderSection",
+    "src": "resources/js/pages/home-page/_sections/HeaderSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/pages/home-page/_sections/HomeVisuals.jsx"
+    ]
+  },
+  "resources/js/pages/home-page/_sections/HeroSection.jsx": {
+    "file": "assets/HeroSection-Bqoqp6Kf.js",
+    "name": "HeroSection",
+    "src": "resources/js/pages/home-page/_sections/HeroSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/pages/home-page/_sections/HomeVisuals.jsx",
+      "resources/js/pages/home-page/_sections/NodeCanvas.jsx"
+    ]
+  },
+  "resources/js/pages/home-page/_sections/HomeVisuals.jsx": {
+    "file": "assets/HomeVisuals-B2OxcD0i.js",
+    "name": "HomeVisuals",
+    "src": "resources/js/pages/home-page/_sections/HomeVisuals.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/pages/home-page/_sections/NodeCanvas.jsx": {
+    "file": "assets/NodeCanvas-DuKKNsyR.js",
+    "name": "NodeCanvas",
+    "src": "resources/js/pages/home-page/_sections/NodeCanvas.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "dynamicImports": [
+      "node_modules/three/build/three.module.js"
+    ]
+  },
+  "resources/js/pages/home-page/_sections/WorkflowSection.jsx": {
+    "file": "assets/WorkflowSection-R8pElxsj.js",
+    "name": "WorkflowSection",
+    "src": "resources/js/pages/home-page/_sections/WorkflowSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/pages/home-page/_sections/HomeVisuals.jsx"
+    ]
+  },
+  "resources/js/pages/home-page/page.jsx": {
+    "file": "assets/page-z7A5L64k.js",
+    "name": "page",
+    "src": "resources/js/pages/home-page/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/pages/home-page/_sections/HeaderSection.jsx",
+      "resources/js/pages/home-page/_sections/HeroSection.jsx",
+      "resources/js/pages/home-page/_sections/WorkflowSection.jsx",
+      "resources/js/pages/home-page/_sections/CapabilitiesSection.jsx",
+      "resources/js/pages/home-page/_sections/CtaSection.jsx",
+      "resources/js/pages/home-page/_sections/FooterSection.jsx",
+      "resources/js/pages/home-page/_sections/HomeVisuals.jsx",
+      "resources/js/pages/home-page/_sections/NodeCanvas.jsx"
+    ]
+  },
+  "resources/js/pages/login/_sections/LoginFormSection.jsx": {
+    "file": "assets/LoginFormSection-CPzUAWdD.js",
+    "name": "LoginFormSection",
+    "src": "resources/js/pages/login/_sections/LoginFormSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_TextInput-CYRE7mRF.js"
+    ]
+  },
+  "resources/js/pages/login/page.jsx": {
+    "file": "assets/page-bK6K-Slm.js",
+    "name": "page",
+    "src": "resources/js/pages/login/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-2FgmnTaq.js",
+      "resources/js/pages/login/_sections/LoginFormSection.jsx",
+      "_TextInput-CYRE7mRF.js"
+    ]
+  },
+  "resources/js/pages/profile/Edit.jsx": {
+    "file": "assets/Edit-C_J7HVzz.js",
+    "name": "Edit",
+    "src": "resources/js/pages/profile/Edit.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_MainLayout-Dqovo2Id.js",
+      "_TextInput-CYRE7mRF.js"
+    ]
+  },
+  "resources/js/pages/register/_sections/RegisterFormSection.jsx": {
+    "file": "assets/RegisterFormSection-BBiK-3p1.js",
+    "name": "RegisterFormSection",
+    "src": "resources/js/pages/register/_sections/RegisterFormSection.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_TextInput-CYRE7mRF.js"
+    ]
+  },
+  "resources/js/pages/register/page.jsx": {
+    "file": "assets/page-D2myYOLi.js",
+    "name": "page",
+    "src": "resources/js/pages/register/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-2FgmnTaq.js",
+      "resources/js/pages/register/_sections/RegisterFormSection.jsx",
+      "_TextInput-CYRE7mRF.js"
+    ]
+  }
+}
